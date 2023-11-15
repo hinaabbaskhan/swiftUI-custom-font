@@ -14,6 +14,7 @@
 		18B685742B04A1F8004A0331 /* custom_fonts_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B685732B04A1F8004A0331 /* custom_fonts_practiceTests.swift */; };
 		18B6857E2B04A1F8004A0331 /* custom_fonts_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6857D2B04A1F8004A0331 /* custom_fonts_practiceUITests.swift */; };
 		18B685802B04A1F8004A0331 /* custom_fonts_practiceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B6857F2B04A1F8004A0331 /* custom_fonts_practiceUITestsLaunchTests.swift */; };
+		18B6858D2B04A22D004A0331 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18B6858C2B04A22D004A0331 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		18B685792B04A1F8004A0331 /* custom-fonts-practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "custom-fonts-practiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18B6857D2B04A1F8004A0331 /* custom_fonts_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_fonts_practiceUITests.swift; sourceTree = "<group>"; };
 		18B6857F2B04A1F8004A0331 /* custom_fonts_practiceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_fonts_practiceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18B6858C2B04A22D004A0331 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		18B6858E2B04A29D004A0331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 		18B685602B04A1F6004A0331 /* custom-fonts-practice */ = {
 			isa = PBXGroup;
 			children = (
+				18B6858E2B04A29D004A0331 /* Info.plist */,
+				18B6858C2B04A22D004A0331 /* Pacifico-Regular.ttf */,
 				18B685612B04A1F6004A0331 /* custom_fonts_practiceApp.swift */,
 				18B685632B04A1F6004A0331 /* ContentView.swift */,
 				18B685652B04A1F8004A0331 /* Assets.xcassets */,
@@ -233,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B6858D2B04A22D004A0331 /* Pacifico-Regular.ttf in Resources */,
 				18B6856A2B04A1F8004A0331 /* Preview Assets.xcassets in Resources */,
 				18B685662B04A1F8004A0331 /* Assets.xcassets in Resources */,
 			);
@@ -417,6 +423,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"custom-fonts-practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "custom-fonts-practice/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -453,6 +460,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"custom-fonts-practice/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "custom-fonts-practice/Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
